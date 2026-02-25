@@ -1,111 +1,110 @@
-Understanding Artificial Intelligence Project
+# MSc AI & Data Science – Understanding Artificial Intelligence Project
 
-This repository contains coursework completed for the Understanding Artificial Intelligence module as part of my MSc in Artificial Intelligence & Data Science.
+Understanding Artificial Intelligence – Coursework Project (University of Hull)
 
-The project explores applied AI concepts including data preprocessing, machine learning modelling, performance evaluation, and result interpretation using Python.
+Student: Omowumi Abimbola Emmanuel  
+GitHub: https://github.com/javabim  
+University: University of Hull  
+Programme: MSc Artificial Intelligence & Data Science  
+Module: Understanding Artificial Intelligence  
 
-Repository Structure
-Understanding Artificial Intelligence project/
-│
-├── jupyternotebooks/
-│   ├── Component One.ipynb
-│   └── Component Two.ipynb
-│
-├── image plots/
-│   └── (exported visualisations and model results)
+---
 
-Component One
+## Project Overview
 
-Focuses on:
+This repository contains my MSc coursework project for the Understanding Artificial Intelligence module.
 
-Data cleaning and preprocessing
+The project focuses on applying artificial intelligence and machine learning techniques to structured datasets, including data preprocessing, model development, evaluation, and result interpretation.
 
-Exploratory Data Analysis (EDA)
+### Main Tasks
 
-Feature engineering
+- Data cleaning and preprocessing  
+- Exploratory Data Analysis (EDA)  
+- Feature engineering  
+- Implementation of supervised learning models  
+- Model evaluation using performance metrics  
+- Visualisation of key insights  
+- Interpretation of AI model results  
 
-Supervised learning model implementation
+---
 
-Model performance evaluation using appropriate metrics
+## Structure
 
-Component Two
+- `jupyternotebooks/` – project notebooks  
+- `image plots/` – exported plots used in the analysis  
 
-Focuses on:
+---
 
-Advanced modelling techniques
+## Files
 
-Model comparison and evaluation
+### Notebooks
 
-Performance metrics analysis
+- `Component One.ipynb`  
+- `Component Two.ipynb`  
 
-Interpretation of AI model outputs
+These notebooks contain the full implementation, analysis, modelling, and evaluation processes.
 
-Visualisation of results
+### Image Plots
 
-Technologies Used
+The `image plots/` folder contains exported visualisations generated during analysis, including:
 
-Python
+- `age_hist_binwidth5.png` – Age distribution with 5-year bins  
+- `dependants_hist.png` – Distribution of number of dependants  
+- `age_by_marital_status.png` – Age distribution by marital status  
+- `distance_salary_scatter.png` – Commuted distance vs salary  
+- `age_salary_scatter.png` – Age vs salary  
+- `age_salary_dependants_scatter.png` – Age vs salary coloured by dependants  
 
-Jupyter Notebook
+---
 
-NumPy
+## Technologies Used
 
-Pandas
+- Python  
+- Jupyter Notebook  
+- Pandas  
+- NumPy  
+- Matplotlib  
+- Seaborn  
+- Scikit-learn  
 
-Matplotlib
+---
 
-Seaborn
+## Key AI Concepts Covered
 
-Scikit-learn
+- Supervised Machine Learning  
+- Classification Models  
+- Accuracy, Precision, Recall, F1 Score  
+- Balanced Accuracy  
+- Handling Class Imbalance  
+- Feature Scaling  
+- Principal Component Analysis (PCA)  
+- Data Visualisation  
 
-Key Concepts Covered
+---
 
-Supervised Machine Learning
+## How to Run
 
-Classification Models
+1. Clone the repository:
 
-Model Evaluation (Accuracy, Precision, Recall, F1-score, Balanced Accuracy)
+   git clone https://github.com/javabim/understanding-artificial-intelligence-project.git
 
-Data Imbalance Handling
+2. Navigate into the project folder:
 
-Feature Scaling
+   cd understanding-artificial-intelligence-project
 
-Principal Component Analysis (PCA)
+3. Open Jupyter Notebook:
 
-Data Visualisation
+   jupyter notebook
 
-How to Run the Project
+4. Open either:
 
-Clone the repository:
+   - Component One.ipynb  
+   - Component Two.ipynb  
 
-git clone https://github.com/javabim/understanding-artificial-intelligence-project
-.git
+5. Run all cells sequentially from top to bottom.
 
+---
 
-Navigate into the project folder:
+## Academic Context
 
-cd repository-name
-
-
-Open Jupyter Notebook:
-
-jupyter notebook
-
-
-Open either:
-
-Component One.ipynb
-
-Component Two.ipynb
-
-Run cells sequentially from top to bottom.
-
-Academic Context
-
-This project was completed as part of postgraduate coursework and demonstrates practical understanding of AI theory applied to real-world datasets.
-
-Author
-
-Abimbola
-MSc Artificial Intelligence & Data Science
-University of Hull
+This project was completed as part of postgraduate coursework at the University of Hull and demonstrates practical application of artificial intelligence principles to real-world datasets.
